@@ -1,13 +1,23 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: rgb(14, 14, 14);
+    color: white;
 }
 
 header{
     background-color: aqua;
-    height: 100px;
+    height: 170px;
     width: 100%;
+    text-align: center;
 }
+
+
+
+header img{
+    margin-top: 20px;
+}
+
 
 .goodbye{
     text-align: center;
@@ -20,6 +30,110 @@ header{
     margin: 80px;
 }
 
+.game{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.game-form{
+    margin-top: 50px;
+}
+
 .game-form input{
     display: block;
+    margin-left: 45.25%;
+    background-color: aqua;
+    color:rgb(14, 14, 14);
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.game-form select{
+    background-color: aqua;
+    color:rgb(14, 14, 14);
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#game-submit{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(14, 14, 14);
+    color: aqua;
+    border: aqua 5px solid;
+    font-size: 20pt;
+    margin-left: 46.5%;
+}
+
+::placeholder{
+    color:rgb(14, 14, 14);
+}
+
+.question{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20pt;
+}
+
+.question input{
+    margin: 20px;
+}
+
+.question h2{
+    margin-top: 20px;
+}
+
+.question form{
+    margin-top: 20px;
+}
+
+#question-submit{
+    background-color: aqua;
+    width: 100px;
+    height: 35px;
+    font-size: 16pt;
+    color: rgb(14, 14, 14);
+}
+
+.hello{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25pt;
+}
+
+.hello h1{
+    font-size: 50pt;
+    margin-bottom: 20px;
+}
+
+.hello input{
+    background-color: aqua;
+    color:rgb(14, 14, 14);
+    width: 200px;
+    height: 30px;
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+#hi-submit{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(14, 14, 14);
+    color: aqua;
+    border: aqua 5px solid;
+    font-size: 20pt;
+}
+
+.madlib{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40pt;
+    padding-left: 400px;
+    padding-right: 400px;
 }

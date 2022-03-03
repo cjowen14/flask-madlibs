@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-
+        <a href="{{ url_for('say_hello') }}">
+            <img src="{{ url_for('static', filename='/images/logo.png') }}">
+        </a>
+        
     </header>
 
     {% block content %}

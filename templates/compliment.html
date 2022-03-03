@@ -5,12 +5,15 @@ Hello There!
 {% endblock %}
 
 {% block content %}
-    Hi {{ person }}! I think you're {{ compliment }}!
+    <div class="question">
+      Hi {{ person }}! I think you're {{ compliment }}!
 
-    <h2>Would you like to play a game?</h2>
-    <form action="/game">
-      <input type="radio" name="option" value="Yes">Yes
-      <input type="radio" name="option" value="No">No
-      <input type="submit" name="submit">
-    </form>
+      <h2>Would you like to play a game?</h2>
+      <form action="/game">
+        <input type="radio" name="option" value="Yes">Yes
+        <input type="radio" name="option" value="No">No
+        <input type="submit" name="submit" id="question-submit">
+      </form>
+    </div>
+    
 {% endblock %}
