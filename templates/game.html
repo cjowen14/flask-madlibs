@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Madlibs Game!
+{% endblock %}
+
+{% block content %}
+
+    <h1>THIS IS THE GAME OF MADLIBS!</h1>
+
+    <form class="game-form" action="/madlib">
+        <input type="text" name="person" placeholder="Enter a person">
+        <select name="color" id="color">
+            <option value="Choose a color">Choose a color</option>
+            <option value="Blue">Blue</option>
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Purple">Purple</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Orange">Orange</option>
+            <option value="Brown">Brown</option>
+            <option value="Turquoise">Turquoise</option>
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+        </select>
+        <input type="text" name="noun" placeholder="Enter a noun">
+        <input type="text" name="adjective" placeholder="Enter a adjective">
+        <input type="submit" name="submit">
+    </form>
+
+{% endblock %}

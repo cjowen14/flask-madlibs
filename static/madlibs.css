@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+
+.goodbye{
+    text-align: center;
+    margin: 20px;
+    font-size: 40pt;
+}
+
+.goodbye h1{
+    color: red;
+    margin: 80px;
+}
+
+.game-form input{
+    display: block;
+}
